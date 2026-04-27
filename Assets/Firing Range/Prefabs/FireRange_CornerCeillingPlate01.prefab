@@ -1,0 +1,26 @@
+%YAML
+--- &6661248026270025346
+Entity:
+  m_Name: FireRange_CornerCeillingPlate01
+  m_Components: 
+  - {fileId: 5541316869628620731}
+  - {fileId: 11100642300967592964}
+  m_IsActive: 1
+--- &5541316869628620731
+Transform:
+  m_Entity: {fileId: 6661248026270025346}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &11100642300967592964
+MeshRenderer:
+  m_Entity: {fileId: 6661248026270025346}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 15699171099392425366, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 2761464470962627678, guid: 42f46b52bde2ef3bd7e27a61b5b2d730}
+  m_IsBakeable: 1

@@ -1,0 +1,13 @@
+%YAML
+--- &2574286206558252077
+Material:
+  m_Name: FireExtinguisher
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 0742dd286e4e957bdc4270a83924b988}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 84d6fc3d05d24e94aa68db271986577b}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 1033ab606814bf90c4ecb2a5bba7c8d5}
+  m_ActiveKeywords: []

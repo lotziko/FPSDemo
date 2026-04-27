@@ -1,0 +1,37 @@
+<rml>
+<head>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            pointer-events: none;
+        }
+
+        #ammo_panel {
+            position: absolute;
+            right: 20dp;
+            bottom: 20dp;
+
+            padding: 10dp 16dp;
+
+            background-color: rgba(0, 0, 0, 48);
+            border: 1dp solid #666;
+        }
+
+        #ammo_text {
+            font-family: default;
+            font-size: 48dp;
+            color: #ffffff;
+			padding: 60dp 60dp;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ammo_panel">
+        <div id="ammo_text">0/0</div>
+    </div>
+</body>
+</rml>
+

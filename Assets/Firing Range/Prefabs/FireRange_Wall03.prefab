@@ -1,0 +1,32 @@
+%YAML
+--- &8131550705152759552
+Entity:
+  m_Name: FireRange_Wall03
+  m_Components: 
+  - {fileId: 14587740861541841725}
+  - {fileId: 2135834767403649149}
+  - {fileId: 8374240529033386684}
+  m_IsActive: 1
+--- &14587740861541841725
+Transform:
+  m_Entity: {fileId: 8131550705152759552}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &2135834767403649149
+MeshRenderer:
+  m_Entity: {fileId: 8131550705152759552}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 10495253000959216714, guid: d5dbf53a3f0637bff59ba0a04b06d309}
+  m_Materials: 
+  - {fileId: 9173036801579387705, guid: b286da4534e1ba2653453fe41fdbacce}
+  m_IsBakeable: 1
+--- &8374240529033386684
+MeshCollider:
+  m_Entity: {fileId: 8131550705152759552}
+  m_Mesh: {fileId: 10495253000959216714, guid: d5dbf53a3f0637bff59ba0a04b06d309}
+  m_IsConvex: 0

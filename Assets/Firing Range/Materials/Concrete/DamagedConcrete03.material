@@ -1,0 +1,13 @@
+%YAML
+--- &14676543438789461352
+Material:
+  m_Name: DamagedConcrete03
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 4a983156016583e9359ef637f05d9490}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 7fb7ef44bdba9426a5d8ca2c6875a69e}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: ff3c4fb7c3b80473dc9c3d5c4762b20a}
+  m_ActiveKeywords: []

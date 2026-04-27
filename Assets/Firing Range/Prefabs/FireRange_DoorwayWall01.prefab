@@ -1,0 +1,32 @@
+%YAML
+--- &11133111770009926039
+Entity:
+  m_Name: FireRange_DoorwayWall01
+  m_Components: 
+  - {fileId: 8612674481771460764}
+  - {fileId: 17206069006113308699}
+  - {fileId: 11804371148394735801}
+  m_IsActive: 1
+--- &8612674481771460764
+Transform:
+  m_Entity: {fileId: 11133111770009926039}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &17206069006113308699
+MeshRenderer:
+  m_Entity: {fileId: 11133111770009926039}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 3359839173948572973, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 12890333441480789397, guid: 71b77669e8f51b5b9ada78eb0687a601}
+  m_IsBakeable: 1
+--- &11804371148394735801
+MeshCollider:
+  m_Entity: {fileId: 11133111770009926039}
+  m_Mesh: {fileId: 3359839173948572973, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_IsConvex: 0

@@ -1,0 +1,9 @@
+%YAML
+--- &3854941020689339335
+Material:
+  m_Name: Station
+  m_Shader: {fileId: 1, guid: 82958a0cab9469200000000000000000}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 3, guid: 0612627ea76cdcaed2ee4996ef7dd981}
+  m_ActiveKeywords: []

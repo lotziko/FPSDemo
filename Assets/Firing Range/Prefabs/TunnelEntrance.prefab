@@ -1,0 +1,34 @@
+%YAML
+--- &18026075709972945317
+Entity:
+  m_Name: TunnelEntrance
+  m_Components: 
+  - {fileId: 16273866284641654360}
+  - {fileId: 15896109779682103365}
+  - {fileId: 4845603409448155058}
+  m_IsActive: 1
+--- &16273866284641654360
+Transform:
+  m_Entity: {fileId: 18026075709972945317}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &15896109779682103365
+MeshRenderer:
+  m_Entity: {fileId: 18026075709972945317}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 7925286316503223221, guid: 0aa40171b848cb16f7cc0e485290fbf9}
+  m_Materials: 
+  - {fileId: 2232391423012555536, guid: 3c28fd5cee686f63f7934a8bb0236851}
+  - {fileId: 14306210776148674455, guid: 4d71d5273c50716e1985040c3e9c100e}
+  - {fileId: 5430616593511015275, guid: e06193d695b93d91bc4b4d16dca091ab}
+  m_IsBakeable: 1
+--- &4845603409448155058
+MeshCollider:
+  m_Entity: {fileId: 18026075709972945317}
+  m_Mesh: {fileId: 7925286316503223221, guid: 0aa40171b848cb16f7cc0e485290fbf9}
+  m_IsConvex: 0

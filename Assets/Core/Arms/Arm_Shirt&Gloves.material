@@ -1,0 +1,13 @@
+%YAML
+--- &12045841514983837030
+Material:
+  m_Name: Arm_Shirt&Gloves
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: c6c42ef56f3d19bee7ce1e0efc9c4b82}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 71bbe42223987099816a9bacd29f0488}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 157535cf8a37a2bbd013dcd5a1a09ec9}
+  m_ActiveKeywords: []

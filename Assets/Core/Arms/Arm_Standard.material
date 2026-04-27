@@ -1,0 +1,13 @@
+%YAML
+--- &5534844068985945631
+Material:
+  m_Name: New Material
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 50ee4fef7baafbeabba12ad9f4edc671}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 64cf674c613c57c945f469e04cfef797}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 5fc0cab002cb0548d5e88b9c56d97f91}
+  m_ActiveKeywords: []

@@ -1,0 +1,14 @@
+Guid: dfd02e9f954404895a9dd4235ff2f4fe
+ModelImporter: 
+  m_Name: FiringRange_Props
+  m_Materials: 
+  - m_Name: FireRange_ModularParts03
+    m_Material: {fileId: 5136357296024861535, guid: 249e52963ee5e224a3356a12ad15b1c5}
+  - m_Name: FireExtinguisher
+    m_Material: {fileId: 2574286206558252077, guid: a0a5a2ef4d0f0b2b64020b4ef1215666}
+  - m_Name: ExitDoor
+    m_Material: {fileId: 7726722846875738479, guid: 0e67df20fd578dc7a071e0788a1428af}
+  m_AnimationClips: []
+  m_Scale: 1
+  m_GenerateLightmapUV: 1
+  m_GeneratePhysicsShape: 1

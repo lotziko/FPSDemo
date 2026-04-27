@@ -1,0 +1,14 @@
+%YAML
+--- &635193195025907241
+Material:
+  m_Name: MetalFence
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 41eedd352926ebbea681cfa3838fa169}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: b49c14948e4924bf76d777b5def53533}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 60626b4636e7542a64ce3d18174160d9}
+  m_ActiveKeywords: 
+  - TRANSPARENT

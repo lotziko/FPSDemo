@@ -1,0 +1,313 @@
+%YAML
+--- &12823033902250223563
+Entity:
+  m_Name: RadioTower
+  m_Components: 
+  - {fileId: 1548049501952379261}
+  m_IsActive: 1
+--- &1548049501952379261
+Transform:
+  m_Entity: {fileId: 12823033902250223563}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: 
+  - {fileId: 10900180329360619235}
+  - {fileId: 15212817172720121208}
+  - {fileId: 3299382269813773283}
+  - {fileId: 9779235245444238679}
+  - {fileId: 1971984218962318941}
+  - {fileId: 14073103322239331870}
+  - {fileId: 4844325549965668364}
+  - {fileId: 13591052185644436005}
+  - {fileId: 2096256281928222057}
+  - {fileId: 10334593958924138720}
+  - {fileId: 799755156187239103}
+--- &11151097788250899352
+Entity:
+  m_Name: TowerCables
+  m_Components: 
+  - {fileId: 10900180329360619235}
+  - {fileId: 16616005264339441935}
+  m_IsActive: 1
+--- &10900180329360619235
+Transform:
+  m_Entity: {fileId: 11151097788250899352}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &16616005264339441935
+MeshRenderer:
+  m_Entity: {fileId: 11151097788250899352}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 308507487201783508, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  m_IsBakeable: 1
+--- &7027218303938113306
+Entity:
+  m_Name: Antenna02
+  m_Components: 
+  - {fileId: 15212817172720121208}
+  - {fileId: 5987801081119951725}
+  m_IsActive: 1
+--- &15212817172720121208
+Transform:
+  m_Entity: {fileId: 7027218303938113306}
+  m_LocalPosition: {x: -0.3, y: 13.44, z: -2.802}
+  m_LocalRotation: {x: -0, y: -0.6277049, z: 0, w: 0.7784514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: -77.762, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &5987801081119951725
+MeshRenderer:
+  m_Entity: {fileId: 7027218303938113306}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 12662571218389723318, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  m_IsBakeable: 1
+--- &1036029369863596077
+Entity:
+  m_Name: Antenna01
+  m_Components: 
+  - {fileId: 3299382269813773283}
+  - {fileId: 10251618041666472436}
+  m_IsActive: 1
+--- &3299382269813773283
+Transform:
+  m_Entity: {fileId: 1036029369863596077}
+  m_LocalPosition: {x: -2.376836, y: 17.69, z: 0.8501814}
+  m_LocalRotation: {x: 0, y: 0.04261676, z: 0, w: 0.9990915}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 4.885, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &10251618041666472436
+MeshRenderer:
+  m_Entity: {fileId: 1036029369863596077}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 12662570118878095107, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  m_IsBakeable: 1
+--- &8825257684263749187
+Entity:
+  m_Name: RadioPanel
+  m_Components: 
+  - {fileId: 9779235245444238679}
+  - {fileId: 439400653631111622}
+  m_IsActive: 1
+--- &9779235245444238679
+Transform:
+  m_Entity: {fileId: 8825257684263749187}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &439400653631111622
+MeshRenderer:
+  m_Entity: {fileId: 8825257684263749187}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 17913556305882484930, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  m_IsBakeable: 1
+--- &6470730938556281022
+Entity:
+  m_Name: TowerPlatform
+  m_Components: 
+  - {fileId: 1971984218962318941}
+  - {fileId: 2480148786121840916}
+  m_IsActive: 1
+--- &1971984218962318941
+Transform:
+  m_Entity: {fileId: 6470730938556281022}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &2480148786121840916
+MeshRenderer:
+  m_Entity: {fileId: 6470730938556281022}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 13774887111560349689, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  m_IsBakeable: 1
+--- &9571974583503155721
+Entity:
+  m_Name: TowerLadder
+  m_Components: 
+  - {fileId: 14073103322239331870}
+  - {fileId: 9158053763424425065}
+  m_IsActive: 1
+--- &14073103322239331870
+Transform:
+  m_Entity: {fileId: 9571974583503155721}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &9158053763424425065
+MeshRenderer:
+  m_Entity: {fileId: 9571974583503155721}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 3269210081951909450, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  - {fileId: 7257568631806133913, guid: 92cdade297ef449704ff55d8c02d1f0b}
+  m_IsBakeable: 1
+--- &9235920637482802797
+Entity:
+  m_Name: Concrete Foundation
+  m_Components: 
+  - {fileId: 4844325549965668364}
+  - {fileId: 8696941424621902811}
+  - {fileId: 12664531529987819228}
+  m_IsActive: 1
+--- &4844325549965668364
+Transform:
+  m_Entity: {fileId: 9235920637482802797}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &8696941424621902811
+MeshRenderer:
+  m_Entity: {fileId: 9235920637482802797}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 16068042062282100263, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 10278910572944118190, guid: 6bbfd5031dfcb7b4d34e1c75bd42d24b}
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  m_IsBakeable: 1
+--- &12664531529987819228
+MeshCollider:
+  m_Entity: {fileId: 9235920637482802797}
+  m_Mesh: {fileId: 16068042062282100263, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_IsConvex: 0
+--- &13546272669905580272
+Entity:
+  m_Name: Stone Foundation
+  m_Components: 
+  - {fileId: 13591052185644436005}
+  - {fileId: 3507805790102250546}
+  - {fileId: 9466135424597060431}
+  m_IsActive: 1
+--- &13591052185644436005
+Transform:
+  m_Entity: {fileId: 13546272669905580272}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &3507805790102250546
+MeshRenderer:
+  m_Entity: {fileId: 13546272669905580272}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 5951460573608484251, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 5013490829754561018, guid: 58dc3dd597215cd2b5570f1d2925656d}
+  m_IsBakeable: 1
+--- &9466135424597060431
+MeshCollider:
+  m_Entity: {fileId: 13546272669905580272}
+  m_Mesh: {fileId: 5951460573608484251, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_IsConvex: 0
+--- &14910528031240908344
+Entity:
+  m_Name: MetalParts
+  m_Components: 
+  - {fileId: 2096256281928222057}
+  - {fileId: 6877678999696762237}
+  m_IsActive: 1
+--- &2096256281928222057
+Transform:
+  m_Entity: {fileId: 14910528031240908344}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &6877678999696762237
+MeshRenderer:
+  m_Entity: {fileId: 14910528031240908344}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 4012290544353109118, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  m_IsBakeable: 1
+--- &521087499112899531
+Entity:
+  m_Name: TowerSkeleton
+  m_Components: 
+  - {fileId: 10334593958924138720}
+  - {fileId: 1700463646522415834}
+  m_IsActive: 1
+--- &10334593958924138720
+Transform:
+  m_Entity: {fileId: 521087499112899531}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &1700463646522415834
+MeshRenderer:
+  m_Entity: {fileId: 521087499112899531}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 17964048197705522753, guid: 247bb165f5edddb13a103b758fae7c71}
+  m_Materials: 
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  m_IsBakeable: 1
+--- &5975646282561879246
+Entity:
+  m_Name: Collider
+  m_Components: 
+  - {fileId: 799755156187239103}
+  - {fileId: 9749881744304600761}
+  m_IsActive: 1
+--- &799755156187239103
+Transform:
+  m_Entity: {fileId: 5975646282561879246}
+  m_LocalPosition: {x: 0, y: 5, z: -0.6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 0
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 1548049501952379261}
+  m_Children: []
+--- &9749881744304600761
+BoxCollider:
+  m_Entity: {fileId: 5975646282561879246}
+  m_Size: {x: 3, y: 5, z: 3}

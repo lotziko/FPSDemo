@@ -1,0 +1,44 @@
+%YAML
+--- &14493642835841973114
+Entity:
+  m_Name: FP_Unarmed
+  m_Components: 
+  - {fileId: 5780205131778035657}
+  - {fileId: 9075098712010052544}
+  m_IsActive: 1
+--- &5780205131778035657
+Transform:
+  m_Name: ''
+  m_Entity: {fileId: 14493642835841973114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 0
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: -0}
+  m_Parent: {fileId: 0}
+  m_Children: 
+  - {fileId: 17876926476339356034}
+--- &9075098712010052544
+Unarmed:
+  m_Name: ''
+  m_Entity: {fileId: 14493642835841973114}
+  m_ItemInfo: {fileId: 9540434106004365159, guid: aea78693ac55bba87db8fd87ba02aab1}
+  m_ArmsAnimationGraph: {fileId: 963763661392582060, guid: 02f6ebc966a34024825239fbe9907054}
+  m_Pivot: {fileId: 17876926476339356034}
+--- &1494646294899332064
+Entity:
+  m_Name: Pivot
+  m_Components: 
+  - {fileId: 17876926476339356034}
+  m_IsActive: 1
+--- &17876926476339356034
+Transform:
+  m_Name: ''
+  m_Entity: {fileId: 1494646294899332064}
+  m_LocalPosition: {x: -0.05, y: 1.48, z: 0.12}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 0
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: -0}
+  m_Parent: {fileId: 5780205131778035657}
+  m_Children: []

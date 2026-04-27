@@ -1,0 +1,26 @@
+%YAML
+--- &17622236757742380541
+Entity:
+  m_Name: FireRange_WeaponWall
+  m_Components: 
+  - {fileId: 9121665092973026600}
+  - {fileId: 12647134878768158465}
+  m_IsActive: 1
+--- &9121665092973026600
+Transform:
+  m_Entity: {fileId: 17622236757742380541}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &12647134878768158465
+MeshRenderer:
+  m_Entity: {fileId: 17622236757742380541}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 10232113545830239375, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 9469844858447596198, guid: 4c3e9b133159851503ac3548d0acdca2}
+  m_IsBakeable: 1

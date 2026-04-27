@@ -1,0 +1,33 @@
+%YAML
+--- &6895849431375097334
+Entity:
+  m_Name: BulletTrap
+  m_Components: 
+  - {fileId: 2502396431931566666}
+  - {fileId: 9963692184833356030}
+  - {fileId: 14833622694032926259}
+  m_IsActive: 1
+--- &2502396431931566666
+Transform:
+  m_Entity: {fileId: 6895849431375097334}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &9963692184833356030
+MeshRenderer:
+  m_Entity: {fileId: 6895849431375097334}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 15483476087745407070, guid: d5dbf53a3f0637bff59ba0a04b06d309}
+  m_Materials: 
+  - {fileId: 8958437095921016661, guid: 1dcb9f5582c9b64b5b347ee1ef1055c9}
+  - {fileId: 12890333441480789397, guid: 71b77669e8f51b5b9ada78eb0687a601}
+  m_IsBakeable: 1
+--- &14833622694032926259
+MeshCollider:
+  m_Entity: {fileId: 6895849431375097334}
+  m_Mesh: {fileId: 15483476087745407070, guid: d5dbf53a3f0637bff59ba0a04b06d309}
+  m_IsConvex: 0

@@ -1,0 +1,57 @@
+%YAML
+--- &5693023535755442615
+Entity:
+  m_Name: ExitDoor_Frame
+  m_Components: 
+  - {fileId: 682973070488938456}
+  - {fileId: 13452806803746378293}
+  - {fileId: 8323151460666322445}
+  m_IsActive: 1
+--- &682973070488938456
+Transform:
+  m_Entity: {fileId: 5693023535755442615}
+  m_LocalPosition: {x: 0, y: 2.9802322e-08, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: 
+  - {fileId: 13779039432691059007}
+--- &13452806803746378293
+MeshRenderer:
+  m_Entity: {fileId: 5693023535755442615}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 12197253228522925907, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 7726722846875738479, guid: 0e67df20fd578dc7a071e0788a1428af}
+  m_IsBakeable: 1
+--- &8323151460666322445
+BoxCollider:
+  m_Entity: {fileId: 5693023535755442615}
+  m_Size: {x: 0.6, y: 2.4, z: 0.1}
+--- &9888985518953676338
+Entity:
+  m_Name: ExitDoor
+  m_Components: 
+  - {fileId: 13779039432691059007}
+  - {fileId: 12215128270990982859}
+  m_IsActive: 1
+--- &13779039432691059007
+Transform:
+  m_Entity: {fileId: 9888985518953676338}
+  m_LocalPosition: {x: 0.005500347, y: 1.1764941, z: 0.058830027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 682973070488938456}
+  m_Children: []
+--- &12215128270990982859
+MeshRenderer:
+  m_Entity: {fileId: 9888985518953676338}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 6706603916657130537, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 7726722846875738479, guid: 0e67df20fd578dc7a071e0788a1428af}
+  m_IsBakeable: 1

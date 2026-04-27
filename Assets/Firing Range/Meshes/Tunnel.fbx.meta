@@ -1,0 +1,28 @@
+Guid: 0aa40171b848cb16f7cc0e485290fbf9
+ModelImporter: 
+  m_Name: Tunnel
+  m_Materials: 
+  - m_Name: ConcreteDamaged02
+    m_Material: {fileId: 2232391423012555536, guid: 3c28fd5cee686f63f7934a8bb0236851}
+  - m_Name: ConcreteDamaged01
+    m_Material: {fileId: 10278910572944118190, guid: 6bbfd5031dfcb7b4d34e1c75bd42d24b}
+  - m_Name: BrickWall01
+    m_Material: {fileId: 14306210776148674455, guid: 4d71d5273c50716e1985040c3e9c100e}
+  - m_Name: ConcreteDamaged03
+    m_Material: {fileId: 14676543438789461352, guid: 00cff53fd4c0b3cb121260275208e4b5}
+  - m_Name: PlasticTrimSheet01
+    m_Material: {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  - m_Name: MetalTrimSheet02
+    m_Material: {fileId: 7257568631806133913, guid: 92cdade297ef449704ff55d8c02d1f0b}
+  - m_Name: MetalTrimSheet01
+    m_Material: {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  - m_Name: BrickWall02
+    m_Material: {fileId: 5430616593511015275, guid: e06193d695b93d91bc4b4d16dca091ab}
+  - m_Name: GlassSheet01
+    m_Material: {fileId: 0}
+  - m_Name: Light
+    m_Material: {fileId: 0}
+  m_AnimationClips: []
+  m_Scale: 6.5
+  m_GenerateLightmapUV: 1
+  m_GeneratePhysicsShape: 1

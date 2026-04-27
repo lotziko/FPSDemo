@@ -1,0 +1,130 @@
+%YAML
+--- &13070062873936991027
+AnimationGraph:
+  m_StateMachine: {fileId: 1033803186698598928}
+  m_Parameters: 
+  - m_Name: Reload
+    m_Type: 2
+    m_Value: 0
+  - m_Name: Fire
+    m_Type: 2
+    m_Value: 0
+  - m_Name: Hide
+    m_Type: 2
+    m_Value: 0
+--- &1033803186698598928
+AnimationStateMachine:
+  m_States: 
+  - {fileId: 6647745473270081544}
+  - {fileId: 13557049618916433074}
+  - {fileId: 9299730117679350500}
+  - {fileId: 772762748211774350}
+  - {fileId: 16866212545572264803}
+  m_DefaultState: {fileId: 6647745473270081544}
+  m_EntryStatePosition: {x: 0, y: 0}
+  m_AnyStateTransitions: 
+  - {fileId: 9614118564028231667}
+  - {fileId: 8564368024031405282}
+  m_AnyStatePosition: {x: -64, y: 288}
+--- &6647745473270081544
+AnimationState:
+  m_Name: Draw
+  m_Position: {x: 0, y: 80}
+  m_Transitions: 
+  - {fileId: 3409147799137863479}
+  m_AnimationClip: {fileId: 12426184268310954739, guid: b68b357dc645b4509e9b9671b846b34e}
+  m_Speed: 1
+--- &13557049618916433074
+AnimationState:
+  m_Name: Idle
+  m_Position: {x: 0, y: 144}
+  m_Transitions: 
+  - {fileId: 14941932911275321877}
+  m_AnimationClip: {fileId: 6452826072196316531, guid: b68b357dc645b4509e9b9671b846b34e}
+  m_Speed: 1
+--- &9299730117679350500
+AnimationState:
+  m_Name: Reload
+  m_Position: {x: 160, y: 144}
+  m_Transitions: 
+  - {fileId: 5936242407613686310}
+  m_AnimationClip: {fileId: 10737000146113130508, guid: b68b357dc645b4509e9b9671b846b34e}
+  m_Speed: 1
+--- &772762748211774350
+AnimationState:
+  m_Name: Fire
+  m_Position: {x: 0, y: 208}
+  m_Transitions: 
+  - {fileId: 7347856323271634165}
+  m_AnimationClip: {fileId: 7062484051113490457, guid: b68b357dc645b4509e9b9671b846b34e}
+  m_Speed: 1
+--- &16866212545572264803
+AnimationState:
+  m_Name: Hide
+  m_Position: {x: -160, y: 144}
+  m_Transitions: []
+  m_AnimationClip: {fileId: 10230182267398607832, guid: b68b357dc645b4509e9b9671b846b34e}
+  m_Speed: 1
+--- &9614118564028231667
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Fire
+    m_Comparison: 0
+    m_Value: 0
+  m_Destination: {fileId: 772762748211774350}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &8564368024031405282
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Hide
+    m_Comparison: 0
+    m_Value: 0
+  m_Destination: {fileId: 16866212545572264803}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.1
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &3409147799137863479
+AnimationTransition:
+  m_Conditions: []
+  m_Destination: {fileId: 13557049618916433074}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 1
+  m_ExitTime: 1
+--- &14941932911275321877
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Reload
+    m_Comparison: 0
+    m_Value: 0
+  m_Destination: {fileId: 9299730117679350500}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &5936242407613686310
+AnimationTransition:
+  m_Conditions: []
+  m_Destination: {fileId: 13557049618916433074}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 1
+  m_ExitTime: 1
+--- &7347856323271634165
+AnimationTransition:
+  m_Conditions: []
+  m_Destination: {fileId: 13557049618916433074}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 1
+  m_ExitTime: 1

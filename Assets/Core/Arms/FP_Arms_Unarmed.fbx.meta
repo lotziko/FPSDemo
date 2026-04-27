@@ -1,0 +1,67 @@
+Guid: a489e4573de86cf5034c1bf3b893c60e
+ModelImporter: 
+  m_Name: FP_Arms_Unarmed
+  m_Materials: 
+  - m_Name: Arm_Standard
+    m_Material: {fileId: 5534844068985945631, guid: 51c5ea3ba03778030f38b2d63616d100}
+  - m_Name: Arm_Shirt&Gloves
+    m_Material: {fileId: 12045841514983837030, guid: 00885a3ffa79ee61d5036a0708fdc8ab}
+  m_AnimationClips: 
+  - m_Name: Unarmed_Show
+    m_ReplaceName: Unarmed_Show
+    m_FirstFrame: 1
+    m_LastFrame: 20
+    m_IsLoop: 0
+  - m_Name: Unarmed_Run
+    m_ReplaceName: Unarmed_Run
+    m_FirstFrame: 1
+    m_LastFrame: 29
+    m_IsLoop: 1
+  - m_Name: Unarmed_Fall
+    m_ReplaceName: Unarmed_Fall
+    m_FirstFrame: 1
+    m_LastFrame: 19
+    m_IsLoop: 0
+  - m_Name: Unarmed_FingerIdle
+    m_ReplaceName: Unarmed_FingerIdle
+    m_FirstFrame: 1
+    m_LastFrame: 19
+    m_IsLoop: 1
+  - m_Name: Unarmed_FingerShoot
+    m_ReplaceName: Unarmed_FingerShoot
+    m_FirstFrame: 1
+    m_LastFrame: 19
+    m_IsLoop: 0
+  - m_Name: Unarmed_Hold
+    m_ReplaceName: Unarmed_Hold
+    m_FirstFrame: 1
+    m_LastFrame: 1
+    m_IsLoop: 1
+  - m_Name: Unarmed_Jump
+    m_ReplaceName: Unarmed_Jump
+    m_FirstFrame: 1
+    m_LastFrame: 9
+    m_IsLoop: 0
+  - m_Name: Unarmed_RightPunch
+    m_ReplaceName: Unarmed_RightPunch
+    m_FirstFrame: 1
+    m_LastFrame: 20
+    m_IsLoop: 0
+  - m_Name: Unarmed_LeftPunch
+    m_ReplaceName: Unarmed_LeftPunch
+    m_FirstFrame: 1
+    m_LastFrame: 22
+    m_IsLoop: 0
+  - m_Name: Unarmed_Idle
+    m_ReplaceName: Unarmed_Idle
+    m_FirstFrame: 1
+    m_LastFrame: 149
+    m_IsLoop: 1
+  - m_Name: Unarmed_Hide
+    m_ReplaceName: Unarmed_Hide
+    m_FirstFrame: 1
+    m_LastFrame: 9
+    m_IsLoop: 0
+  m_Scale: 1
+  m_GenerateLightmapUV: 0
+  m_GeneratePhysicsShape: 0

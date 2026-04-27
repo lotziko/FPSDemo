@@ -1,0 +1,32 @@
+%YAML
+--- &16311495610592580582
+Entity:
+  m_Name: FireRange_ShootingPlaceWall_TopPart01
+  m_Components: 
+  - {fileId: 1185034490860423773}
+  - {fileId: 937558147882578955}
+  - {fileId: 11819048867459862043}
+  m_IsActive: 1
+--- &1185034490860423773
+Transform:
+  m_Entity: {fileId: 16311495610592580582}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &937558147882578955
+MeshRenderer:
+  m_Entity: {fileId: 16311495610592580582}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 4581790331615549331, guid: 9cf9baef62d01cf112844f69fafbb8e4}
+  m_Materials: 
+  - {fileId: 14750914207716770204, guid: 562aaa80246767edf7911849e8cee6ab}
+  m_IsBakeable: 1
+--- &11819048867459862043
+MeshCollider:
+  m_Entity: {fileId: 16311495610592580582}
+  m_Mesh: {fileId: 4581790331615549331, guid: 9cf9baef62d01cf112844f69fafbb8e4}
+  m_IsConvex: 0

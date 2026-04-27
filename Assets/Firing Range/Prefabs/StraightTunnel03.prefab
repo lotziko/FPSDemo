@@ -1,0 +1,38 @@
+%YAML
+--- &4509717090852369228
+Entity:
+  m_Name: StraightTunnel03
+  m_Components: 
+  - {fileId: 17993974801152024163}
+  - {fileId: 8153902861392003553}
+  - {fileId: 11922776063679747027}
+  m_IsActive: 1
+--- &17993974801152024163
+Transform:
+  m_Entity: {fileId: 4509717090852369228}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &8153902861392003553
+MeshRenderer:
+  m_Entity: {fileId: 4509717090852369228}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 4850782913590110232, guid: 0aa40171b848cb16f7cc0e485290fbf9}
+  m_Materials: 
+  - {fileId: 2232391423012555536, guid: 3c28fd5cee686f63f7934a8bb0236851}
+  - {fileId: 10278910572944118190, guid: 6bbfd5031dfcb7b4d34e1c75bd42d24b}
+  - {fileId: 14306210776148674455, guid: 4d71d5273c50716e1985040c3e9c100e}
+  - {fileId: 14676543438789461352, guid: 00cff53fd4c0b3cb121260275208e4b5}
+  - {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  - {fileId: 7257568631806133913, guid: 92cdade297ef449704ff55d8c02d1f0b}
+  - {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  m_IsBakeable: 1
+--- &11922776063679747027
+MeshCollider:
+  m_Entity: {fileId: 4509717090852369228}
+  m_Mesh: {fileId: 4850782913590110232, guid: 0aa40171b848cb16f7cc0e485290fbf9}
+  m_IsConvex: 0

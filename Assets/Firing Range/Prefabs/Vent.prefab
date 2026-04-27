@@ -1,0 +1,26 @@
+%YAML
+--- &10053478837099407501
+Entity:
+  m_Name: Vent
+  m_Components: 
+  - {fileId: 9924138863137376640}
+  - {fileId: 11313653478164123857}
+  m_IsActive: 1
+--- &9924138863137376640
+Transform:
+  m_Entity: {fileId: 10053478837099407501}
+  m_LocalPosition: {x: 0, y: 2.9802322e-08, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &11313653478164123857
+MeshRenderer:
+  m_Entity: {fileId: 10053478837099407501}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 16483704635557765758, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 5136357296024861535, guid: 249e52963ee5e224a3356a12ad15b1c5}
+  m_IsBakeable: 1

@@ -1,0 +1,32 @@
+%YAML
+--- &9774638143583036930
+Entity:
+  m_Name: FireRange_FloorPlane01
+  m_Components: 
+  - {fileId: 15211247247993431576}
+  - {fileId: 14901781898672469210}
+  - {fileId: 14969756972549828542}
+  m_IsActive: 1
+--- &15211247247993431576
+Transform:
+  m_Entity: {fileId: 9774638143583036930}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &14901781898672469210
+MeshRenderer:
+  m_Entity: {fileId: 9774638143583036930}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 7569440795984166500, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 18071753299936573695, guid: b1ff9f181f12dea993d5e9b51d4c60a3}
+  m_IsBakeable: 1
+--- &14969756972549828542
+MeshCollider:
+  m_Entity: {fileId: 9774638143583036930}
+  m_Mesh: {fileId: 7569440795984166500, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_IsConvex: 0

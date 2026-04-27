@@ -1,0 +1,18 @@
+Guid: 247bb165f5edddb13a103b758fae7c71
+ModelImporter: 
+  m_Name: RadioTower
+  m_Materials: 
+  - m_Name: PlasticTrimSheet01
+    m_Material: {fileId: 1456419960038003006, guid: 1c49938a40f929284f6c431b2f45bc31}
+  - m_Name: MetalTrimSheet01
+    m_Material: {fileId: 8962068374919012739, guid: 2c71510ba4f0a200a21989383c21fe78}
+  - m_Name: MetalTrimSheet02
+    m_Material: {fileId: 7257568631806133913, guid: 92cdade297ef449704ff55d8c02d1f0b}
+  - m_Name: ConcreteDamaged01
+    m_Material: {fileId: 10278910572944118190, guid: 6bbfd5031dfcb7b4d34e1c75bd42d24b}
+  - m_Name: Stone Foundation
+    m_Material: {fileId: 5013490829754561018, guid: 58dc3dd597215cd2b5570f1d2925656d}
+  m_AnimationClips: []
+  m_Scale: 1
+  m_GenerateLightmapUV: 1
+  m_GeneratePhysicsShape: 1

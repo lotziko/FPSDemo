@@ -1,0 +1,13 @@
+%YAML
+--- &9173036801579387705
+Material:
+  m_Name: FiringRange_Floor02
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: d8757a7b2ae1465c6202beb87dac4e0f}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: bc0fd160ab146971a108585e3fdb80e6}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 57302d0811eba5acb4d6566cbb676b03}
+  m_ActiveKeywords: []

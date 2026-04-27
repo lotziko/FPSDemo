@@ -1,0 +1,94 @@
+%YAML
+--- &9540434106004365159
+EquipmentItemInfo:
+  m_Name: Unarmed_Info
+  m_BasePositionOffset: {x: 0, y: 0, z: 0}
+  m_BaseRotationOffset: {x: 0, y: 0, z: 0}
+  m_Sway: 
+    m_LookInputMultiplier: 1
+    m_MaxLookInput: 5
+    m_AimMultiplier: 0.2
+    m_LookPositionSway: {x: 0.03, y: -0.01, z: 0}
+    m_LookRotationSway: {x: 2.5, y: 1, z: 0.2}
+    m_StrafePositionSway: {x: 1.5, y: 0, z: 0}
+    m_StrafeRotationSway: {x: 0, y: 3, z: -2}
+  m_IdleState: 
+    m_PositionSpringStiffness: {x: 0.012, y: 0.012, z: 0.012}
+    m_PositionSpringDamping: {x: 0.28, y: 0.28, z: 0.28}
+    m_RotationSpringStiffness: {x: 0.015, y: 0.015, z: 0.015}
+    m_RotationSpringDamping: {x: 0.28, y: 0.28, z: 0.28}
+    m_Offset: 
+      m_IsEnabled: 0
+      m_PositionOffset: {x: 0, y: 0, z: 0}
+      m_RotationOffset: {x: 0, y: 0, z: 0}
+    m_Bob: 
+      m_IsEnabled: 1
+      m_BobSpeed: 1
+      m_PositionAmplitude: {x: 0.35, y: 0.5, z: 0}
+      m_RotationAmplitude: {x: 0.35, y: 0.5, z: 0}
+    m_Noise: 
+      m_IsEnabled: 1
+      m_MaxJitter: 0.05
+      m_NoiseSpeed: 1.3
+      m_PositionAmplitude: {x: 0.05, y: 0.025, z: 0.015}
+      m_RotationAmplitude: {x: 0.1, y: 0.1, z: 0.25}
+  m_WalkState: 
+    m_PositionSpringStiffness: {x: 0.012, y: 0.012, z: 0.012}
+    m_PositionSpringDamping: {x: 0.28, y: 0.28, z: 0.28}
+    m_RotationSpringStiffness: {x: 0.015, y: 0.015, z: 0.015}
+    m_RotationSpringDamping: {x: 0.28, y: 0.28, z: 0.28}
+    m_Offset: 
+      m_IsEnabled: 0
+      m_PositionOffset: {x: 0, y: 0, z: 0}
+      m_RotationOffset: {x: 0, y: 0, z: 0}
+    m_Bob: 
+      m_IsEnabled: 1
+      m_BobSpeed: 1
+      m_PositionAmplitude: {x: 4, y: -4, z: 3}
+      m_RotationAmplitude: {x: 7, y: -6, z: -4}
+    m_Noise: 
+      m_IsEnabled: 1
+      m_MaxJitter: 0.05
+      m_NoiseSpeed: 1.3
+      m_PositionAmplitude: {x: 0.03, y: 0.025, z: 0.015}
+      m_RotationAmplitude: {x: 0.1, y: 0.05, z: 0.25}
+  m_RunState: 
+    m_PositionSpringStiffness: {x: 0.02, y: 0.02, z: 0.02}
+    m_PositionSpringDamping: {x: 0.4, y: 0.4, z: 0.4}
+    m_RotationSpringStiffness: {x: 0.02, y: 0.04, z: 0.02}
+    m_RotationSpringDamping: {x: 0.4, y: 0.3, z: 0.4}
+    m_Offset: 
+      m_IsEnabled: 0
+      m_PositionOffset: {x: 0, y: 0, z: 0}
+      m_RotationOffset: {x: 0, y: 0, z: 0}
+    m_Bob: 
+      m_IsEnabled: 0
+      m_BobSpeed: 0
+      m_PositionAmplitude: {x: 0, y: 0, z: 0}
+      m_RotationAmplitude: {x: 0, y: 0, z: 0}
+    m_Noise: 
+      m_IsEnabled: 1
+      m_MaxJitter: 0
+      m_NoiseSpeed: 2.5
+      m_PositionAmplitude: {x: 3.5, y: 0, z: 0}
+      m_RotationAmplitude: {x: 0.1, y: 0, z: 0}
+  m_AimState: 
+    m_PositionSpringStiffness: {x: 0, y: 0, z: 0}
+    m_PositionSpringDamping: {x: 0, y: 0, z: 0}
+    m_RotationSpringStiffness: {x: 0, y: 0, z: 0}
+    m_RotationSpringDamping: {x: 0, y: 0, z: 0}
+    m_Offset: 
+      m_IsEnabled: 0
+      m_PositionOffset: {x: 0, y: 0, z: 0}
+      m_RotationOffset: {x: 0, y: 0, z: 0}
+    m_Bob: 
+      m_IsEnabled: 0
+      m_BobSpeed: 0
+      m_PositionAmplitude: {x: 0, y: 0, z: 0}
+      m_RotationAmplitude: {x: 0, y: 0, z: 0}
+    m_Noise: 
+      m_IsEnabled: 0
+      m_MaxJitter: 0
+      m_NoiseSpeed: 0
+      m_PositionAmplitude: {x: 0, y: 0, z: 0}
+      m_RotationAmplitude: {x: 0, y: 0, z: 0}

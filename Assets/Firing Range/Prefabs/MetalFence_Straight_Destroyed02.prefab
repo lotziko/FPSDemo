@@ -1,0 +1,32 @@
+%YAML
+--- &1306584133484906376
+Entity:
+  m_Name: MetalFence_Straight_Destroyed02
+  m_Components: 
+  - {fileId: 6486750410314476042}
+  - {fileId: 9338990801456346673}
+  - {fileId: 5619314319814735121}
+  m_IsActive: 1
+--- &6486750410314476042
+Transform:
+  m_Entity: {fileId: 1306584133484906376}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &9338990801456346673
+MeshRenderer:
+  m_Entity: {fileId: 1306584133484906376}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 16865268370349493826, guid: f06bcbc8188c68560afba2a4b600dec8}
+  m_Materials: 
+  - {fileId: 635193195025907241, guid: beeb4e0948659ae87d926f929299252b}
+  m_IsBakeable: 1
+--- &5619314319814735121
+MeshCollider:
+  m_Entity: {fileId: 1306584133484906376}
+  m_Mesh: {fileId: 16865268370349493826, guid: f06bcbc8188c68560afba2a4b600dec8}
+  m_IsConvex: 0

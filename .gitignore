@@ -1,0 +1,24 @@
+# Binaries
+**/bin/
+bin-int/
+
+# Data folders
+Build/
+Data/
+
+#FastBuild files
+*.bff
+*.fdb
+*.fdb.corrupt
+
+#Premake fiiles
+premake5.lua
+
+# Visual Studio files and folder
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
+*.pdb

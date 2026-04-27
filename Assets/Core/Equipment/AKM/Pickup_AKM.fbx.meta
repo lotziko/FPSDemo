@@ -1,0 +1,10 @@
+Guid: d0ffb8a1c44faadbe7f02e660ab99119
+ModelImporter: 
+  m_Name: Pickup_AKM
+  m_Materials: 
+  - m_Name: AKM
+    m_Material: {fileId: 10321374826071298482, guid: 577d3c3b4f2e09a67c60375af624b186}
+  m_AnimationClips: []
+  m_Scale: 1
+  m_GenerateLightmapUV: 0
+  m_GeneratePhysicsShape: 0

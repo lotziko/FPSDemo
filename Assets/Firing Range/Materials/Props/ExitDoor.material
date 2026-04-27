@@ -1,0 +1,13 @@
+%YAML
+--- &7726722846875738479
+Material:
+  m_Name: ExitDoor
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 41fcb28a6e45ea76cd96acbe1aeb4812}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 1cbf779d476eb54ed4443bd716f903a0}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 62dc230f23db39588ffda953ec64df30}
+  m_ActiveKeywords: []

@@ -1,0 +1,16 @@
+Guid: d5dbf53a3f0637bff59ba0a04b06d309
+ModelImporter: 
+  m_Name: FiringRange_ExteriorPieces
+  m_Materials: 
+  - m_Name: FireRange_ModularParts05
+    m_Material: {fileId: 8958437095921016661, guid: 1dcb9f5582c9b64b5b347ee1ef1055c9}
+  - m_Name: FiringRange_ConcreteWalls
+    m_Material: {fileId: 12890333441480789397, guid: 71b77669e8f51b5b9ada78eb0687a601}
+  - m_Name: FiringRange_Floor02
+    m_Material: {fileId: 9173036801579387705, guid: b286da4534e1ba2653453fe41fdbacce}
+  - m_Name: FireRange_ModularParts02
+    m_Material: {fileId: 14750914207716770204, guid: 562aaa80246767edf7911849e8cee6ab}
+  m_AnimationClips: []
+  m_Scale: 1
+  m_GenerateLightmapUV: 1
+  m_GeneratePhysicsShape: 1

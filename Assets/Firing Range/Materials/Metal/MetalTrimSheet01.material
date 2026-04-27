@@ -1,0 +1,13 @@
+%YAML
+--- &8962068374919012739
+Material:
+  m_Name: MetalTrimSheet01
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 64525afbfb7cf2cccc078d19da9b3d99}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: f528a1686c14c8980978662b98555594}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 25bafbd9525a949ca2f01e11b72afb27}
+  m_ActiveKeywords: []

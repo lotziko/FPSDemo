@@ -1,0 +1,13 @@
+%YAML
+--- &1456419960038003006
+Material:
+  m_Name: PlasticTrimSheet01
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: d7ad122c25997161f1209dae463854de}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: c418c9aaa1c4d2492950addd6ec5fd39}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: daa542b479151dc9619ef760b55d065c}
+  m_ActiveKeywords: []

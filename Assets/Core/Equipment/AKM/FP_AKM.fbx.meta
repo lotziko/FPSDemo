@@ -1,0 +1,50 @@
+Guid: b68b357dc645b4509e9b9671b846b34e
+ModelImporter: 
+  m_Name: FP_AKM
+  m_Materials: 
+  - m_Name: AKM
+    m_Material: {fileId: 10321374826071298482, guid: 577d3c3b4f2e09a67c60375af624b186}
+  m_AnimationClips: 
+  - m_Name: AKM_Hold
+    m_ReplaceName: AKM_Hold
+    m_FirstFrame: 0
+    m_LastFrame: 1
+    m_IsLoop: 0
+  - m_Name: AKM_Draw
+    m_ReplaceName: AKM_Draw
+    m_FirstFrame: 1
+    m_LastFrame: 29
+    m_IsLoop: 0
+  - m_Name: AKM_Idle
+    m_ReplaceName: AKM_Idle
+    m_FirstFrame: 1
+    m_LastFrame: 149
+    m_IsLoop: 0
+  - m_Name: AKM_FireAim
+    m_ReplaceName: AKM_FireAim
+    m_FirstFrame: 1
+    m_LastFrame: 19
+    m_IsLoop: 0
+  - m_Name: AKM_Fire
+    m_ReplaceName: AKM_Fire
+    m_FirstFrame: 1
+    m_LastFrame: 17
+    m_IsLoop: 0
+  - m_Name: AKM_EmptyReload
+    m_ReplaceName: AKM_EmptyReload
+    m_FirstFrame: 1
+    m_LastFrame: 99
+    m_IsLoop: 0
+  - m_Name: AKM_Reload
+    m_ReplaceName: AKM_Reload
+    m_FirstFrame: 1
+    m_LastFrame: 76
+    m_IsLoop: 0
+  - m_Name: AKM_Holster
+    m_ReplaceName: AKM_Holster
+    m_FirstFrame: 1
+    m_LastFrame: 23
+    m_IsLoop: 0
+  m_Scale: 1
+  m_GenerateLightmapUV: 0
+  m_GeneratePhysicsShape: 0

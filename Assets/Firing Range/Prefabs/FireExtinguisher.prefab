@@ -1,0 +1,37 @@
+%YAML
+--- &6774526379355290765
+Entity:
+  m_Name: FireExtinguisher
+  m_Components: 
+  - {fileId: 10215367041132770021}
+  - {fileId: 8859513878655577269}
+  - {fileId: 18130886865647236724}
+  - {fileId: 12523028913853935172}
+  m_IsActive: 1
+--- &10215367041132770021
+Transform:
+  m_Entity: {fileId: 6774526379355290765}
+  m_LocalPosition: {x: 0, y: 2.9802322e-08, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 0
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &8859513878655577269
+MeshRenderer:
+  m_Entity: {fileId: 6774526379355290765}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 2341075123579771250, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 2574286206558252077, guid: a0a5a2ef4d0f0b2b64020b4ef1215666}
+  m_IsBakeable: 0
+--- &18130886865647236724
+MeshCollider:
+  m_Entity: {fileId: 6774526379355290765}
+  m_Mesh: {fileId: 2341075123579771250, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_IsConvex: 1
+--- &12523028913853935172
+PhysicsBody:
+  m_Entity: {fileId: 6774526379355290765}
+  m_IsKinematic: 0

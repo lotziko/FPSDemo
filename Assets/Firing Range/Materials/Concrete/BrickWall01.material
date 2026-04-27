@@ -1,0 +1,13 @@
+%YAML
+--- &14306210776148674455
+Material:
+  m_Name: BrickWall01
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 0afc79445d8cc956e0a46d66096b6b95}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 420312aefe12edd8cf9b08ae4f02b04f}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: b1ffe1b804de42afda3f861badbf8374}
+  m_ActiveKeywords: []

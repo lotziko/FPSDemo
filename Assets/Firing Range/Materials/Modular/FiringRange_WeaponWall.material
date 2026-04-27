@@ -1,0 +1,13 @@
+%YAML
+--- &9469844858447596198
+Material:
+  m_Name: FiringRange_WeaponWall
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: bd21f8b8e2516e6a4572ce46a8f7e36b}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 9feae723110a1be26effe991cd5ed822}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: c1bd7fb8e964614378847941895a81d3}
+  m_ActiveKeywords: []

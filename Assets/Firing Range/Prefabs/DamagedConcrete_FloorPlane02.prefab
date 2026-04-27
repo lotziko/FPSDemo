@@ -1,0 +1,32 @@
+%YAML
+--- &7010511362713714978
+Entity:
+  m_Name: DamagedConcrete_FloorPlane02
+  m_Components: 
+  - {fileId: 6172770505893802285}
+  - {fileId: 4194684826275615700}
+  - {fileId: 9787701692691201802}
+  m_IsActive: 1
+--- &6172770505893802285
+Transform:
+  m_Entity: {fileId: 7010511362713714978}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &4194684826275615700
+MeshRenderer:
+  m_Entity: {fileId: 7010511362713714978}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 7569440795984166500, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 2232391423012555536, guid: 3c28fd5cee686f63f7934a8bb0236851}
+  m_IsBakeable: 1
+--- &9787701692691201802
+MeshCollider:
+  m_Entity: {fileId: 7010511362713714978}
+  m_Mesh: {fileId: 7569440795984166500, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_IsConvex: 0

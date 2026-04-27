@@ -1,0 +1,13 @@
+%YAML
+--- &10321374826071298482
+Material:
+  m_Name: AKM
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 2bd6ac1adc55978ff13d2df009c9fc37}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: c093de81bf4822b68c98990c5b86ee27}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: a35f87f20531688431e033da9780e24d}
+  m_ActiveKeywords: []

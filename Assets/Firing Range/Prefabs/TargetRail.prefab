@@ -1,0 +1,31 @@
+%YAML
+--- &17268157993142107001
+Entity:
+  m_Name: TargetRail
+  m_Components: 
+  - {fileId: 7881424002264308238}
+  - {fileId: 15342495424173126429}
+  - {fileId: 12976397678009957163}
+  m_IsActive: 1
+--- &7881424002264308238
+Transform:
+  m_Entity: {fileId: 17268157993142107001}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &15342495424173126429
+MeshRenderer:
+  m_Entity: {fileId: 17268157993142107001}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 8975188117730542576, guid: d5dbf53a3f0637bff59ba0a04b06d309}
+  m_Materials: 
+  - {fileId: 8958437095921016661, guid: 1dcb9f5582c9b64b5b347ee1ef1055c9}
+  m_IsBakeable: 1
+--- &12976397678009957163
+BoxCollider:
+  m_Entity: {fileId: 17268157993142107001}
+  m_Size: {x: 0.025, y: 0.045, z: 1.875}

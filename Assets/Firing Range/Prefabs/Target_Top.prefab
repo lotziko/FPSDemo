@@ -1,0 +1,57 @@
+%YAML
+--- &6365111739291201862
+Entity:
+  m_Name: Target_Top
+  m_Components: 
+  - {fileId: 15225867711252378228}
+  - {fileId: 16307004600459042863}
+  m_IsActive: 1
+--- &15225867711252378228
+Transform:
+  m_Entity: {fileId: 6365111739291201862}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: 
+  - {fileId: 7382753674645418295}
+--- &16307004600459042863
+MeshRenderer:
+  m_Entity: {fileId: 6365111739291201862}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 18046190826186099180, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 5136357296024861535, guid: 249e52963ee5e224a3356a12ad15b1c5}
+  m_IsBakeable: 0
+--- &2748175119213043310
+Entity:
+  m_Name: Target
+  m_Components: 
+  - {fileId: 7382753674645418295}
+  - {fileId: 6084609224079704554}
+  - {fileId: 10466810057148710373}
+  m_IsActive: 1
+--- &7382753674645418295
+Transform:
+  m_Entity: {fileId: 2748175119213043310}
+  m_LocalPosition: {x: 0, y: -0.6, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: -0, y: 0, z: 0}
+  m_Parent: {fileId: 15225867711252378228}
+  m_Children: []
+--- &6084609224079704554
+MeshRenderer:
+  m_Entity: {fileId: 2748175119213043310}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 18400502412137240264, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 5136357296024861535, guid: 249e52963ee5e224a3356a12ad15b1c5}
+  m_IsBakeable: 0
+--- &10466810057148710373
+BoxCollider:
+  m_Entity: {fileId: 2748175119213043310}
+  m_Size: {x: 0.05, y: 1.6, z: 0.5}

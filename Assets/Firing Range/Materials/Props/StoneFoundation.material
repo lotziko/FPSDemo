@@ -1,0 +1,13 @@
+%YAML
+--- &5013490829754561018
+Material:
+  m_Name: StoneFoundation
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: e21f64b9583707b533c10b2fc2c37ec0}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 8122abf9febcca35403518ba5bf621aa}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 0cda00bc58517d93c2a3778b426cb595}
+  m_ActiveKeywords: []

@@ -1,0 +1,26 @@
+%YAML
+--- &7564438317268573600
+Entity:
+  m_Name: SafetyFirstSign
+  m_Components: 
+  - {fileId: 12699517693673825278}
+  - {fileId: 1049102749382800547}
+  m_IsActive: 1
+--- &12699517693673825278
+Transform:
+  m_Entity: {fileId: 7564438317268573600}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &1049102749382800547
+MeshRenderer:
+  m_Entity: {fileId: 7564438317268573600}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 10647326408371065454, guid: dfd02e9f954404895a9dd4235ff2f4fe}
+  m_Materials: 
+  - {fileId: 5136357296024861535, guid: 249e52963ee5e224a3356a12ad15b1c5}
+  m_IsBakeable: 1

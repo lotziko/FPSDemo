@@ -1,0 +1,32 @@
+%YAML
+--- &8502478362658535749
+Entity:
+  m_Name: FireRange_CeillingPlate04
+  m_Components: 
+  - {fileId: 17897543337617617008}
+  - {fileId: 2125088560496912381}
+  - {fileId: 7873344790435686427}
+  m_IsActive: 1
+--- &17897543337617617008
+Transform:
+  m_Entity: {fileId: 8502478362658535749}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_IsStatic: 1
+  m_LocalRotationEulerHint: {x: 0, y: 0, z: 0}
+  m_Parent: {fileId: 0}
+  m_Children: []
+--- &2125088560496912381
+MeshRenderer:
+  m_Entity: {fileId: 8502478362658535749}
+  m_IsCastingShadows: 1
+  m_Mesh: {fileId: 10915644863148948058, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_Materials: 
+  - {fileId: 7797056282188274568, guid: 867859abd04f881807f66b0ea3ee01f1}
+  m_IsBakeable: 1
+--- &7873344790435686427
+MeshCollider:
+  m_Entity: {fileId: 8502478362658535749}
+  m_Mesh: {fileId: 10915644863148948058, guid: 26fece715c3c80b8ffa925a74eb48203}
+  m_IsConvex: 0

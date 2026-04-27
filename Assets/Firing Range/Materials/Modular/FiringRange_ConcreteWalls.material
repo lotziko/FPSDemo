@@ -1,0 +1,13 @@
+%YAML
+--- &12890333441480789397
+Material:
+  m_Name: FiringRange_ConcreteWalls
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: 6dd83c0fbe73964b682d6587be54b9ca}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: 48e444b88f1db71b16c5a5c02bb140ca}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: 3d01156e980f4f4526a080b8704103b3}
+  m_ActiveKeywords: []

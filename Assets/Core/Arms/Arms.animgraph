@@ -1,0 +1,181 @@
+%YAML
+--- &963763661392582060
+AnimationGraph:
+  m_StateMachine: {fileId: 14142117657964296750}
+  m_Parameters: 
+  - m_Name: Running
+    m_Type: 1
+    m_Value: 0
+  - m_Name: Arms Are Visible
+    m_Type: 1
+    m_Value: 0
+  - m_Name: Hide
+    m_Type: 2
+    m_Value: 0
+--- &14142117657964296750
+AnimationStateMachine:
+  m_States: 
+  - {fileId: 17997757319797841755}
+  - {fileId: 17124694014921973745}
+  - {fileId: 14226338056252201857}
+  - {fileId: 5552293608262590050}
+  - {fileId: 7858011538872100776}
+  m_DefaultState: {fileId: 17997757319797841755}
+  m_EntryStatePosition: {x: 0, y: 0}
+  m_AnyStateTransitions: 
+  - {fileId: 6444097319099545511}
+  m_AnyStatePosition: {x: -272, y: -128}
+--- &17997757319797841755
+AnimationState:
+  m_Name: Hold
+  m_Position: {x: 0, y: -64}
+  m_Transitions: 
+  - {fileId: 7123849924176366073}
+  - {fileId: 10086110161336948314}
+  m_AnimationClip: {fileId: 11646311727089270999, guid: a489e4573de86cf5034c1bf3b893c60e}
+  m_Speed: 1
+--- &17124694014921973745
+AnimationState:
+  m_Name: Run
+  m_Position: {x: 0, y: -128}
+  m_Transitions: 
+  - {fileId: 15514918956018205515}
+  - {fileId: 6559614820262029532}
+  m_AnimationClip: {fileId: 11124343345389376991, guid: a489e4573de86cf5034c1bf3b893c60e}
+  m_Speed: 1
+--- &14226338056252201857
+AnimationState:
+  m_Name: Show
+  m_Position: {x: 160, y: -192}
+  m_Transitions: 
+  - {fileId: 6123347740592760737}
+  m_AnimationClip: {fileId: 1364646810039667979, guid: a489e4573de86cf5034c1bf3b893c60e}
+  m_Speed: 1
+--- &5552293608262590050
+AnimationState:
+  m_Name: Idle
+  m_Position: {x: 160, y: -256}
+  m_Transitions: 
+  - {fileId: 13503742446819883724}
+  m_AnimationClip: {fileId: 2244851822493433296, guid: a489e4573de86cf5034c1bf3b893c60e}
+  m_Speed: 1
+--- &7858011538872100776
+AnimationState:
+  m_Name: Hide
+  m_Position: {x: -160, y: -256}
+  m_Transitions: 
+  - {fileId: 5919876929640434779}
+  - {fileId: 9500868294139686152}
+  m_AnimationClip: {fileId: 10351985330395295686, guid: a489e4573de86cf5034c1bf3b893c60e}
+  m_Speed: 1
+--- &6444097319099545511
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Hide
+    m_Comparison: 0
+    m_Value: 0
+  m_Destination: {fileId: 7858011538872100776}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.1
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &7123849924176366073
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 1
+  m_Destination: {fileId: 17124694014921973745}
+  m_IsFixedDuration: 1
+  m_TransitionOffset: 0.5
+  m_TransitionDuration: 0.4
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &10086110161336948314
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 0
+  - m_Name: Arms Are Visible
+    m_Comparison: 0
+    m_Value: 1
+  m_Destination: {fileId: 14226338056252201857}
+  m_IsFixedDuration: 1
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &15514918956018205515
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 0
+  - m_Name: Arms Are Visible
+    m_Comparison: 0
+    m_Value: 0
+  m_Destination: {fileId: 17997757319797841755}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.2
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &6559614820262029532
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 0
+  - m_Name: Arms Are Visible
+    m_Comparison: 0
+    m_Value: 1
+  m_Destination: {fileId: 14226338056252201857}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.15
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &6123347740592760737
+AnimationTransition:
+  m_Conditions: []
+  m_Destination: {fileId: 5552293608262590050}
+  m_IsFixedDuration: 1
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.05
+  m_HasExitTime: 1
+  m_ExitTime: 1
+--- &13503742446819883724
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 1
+  m_Destination: {fileId: 7858011538872100776}
+  m_IsFixedDuration: 1
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.05
+  m_HasExitTime: 0
+  m_ExitTime: 0
+--- &5919876929640434779
+AnimationTransition:
+  m_Conditions: 
+  - m_Name: Running
+    m_Comparison: 0
+    m_Value: 1
+  m_Destination: {fileId: 17124694014921973745}
+  m_IsFixedDuration: 1
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0.3
+  m_HasExitTime: 1
+  m_ExitTime: 0.9
+--- &9500868294139686152
+AnimationTransition:
+  m_Conditions: []
+  m_Destination: {fileId: 17997757319797841755}
+  m_IsFixedDuration: 0
+  m_TransitionOffset: 0
+  m_TransitionDuration: 0
+  m_HasExitTime: 1
+  m_ExitTime: 1

@@ -1,0 +1,50 @@
+Guid: 3a8bc1492c3f8b78abff7f14cee0a026
+ModelImporter: 
+  m_Name: FP_Arms_AKM
+  m_Materials: 
+  - m_Name: Arm_Standard
+    m_Material: {fileId: 0}
+  m_AnimationClips: 
+  - m_Name: Arm_AKM_Hold
+    m_ReplaceName: Arm_AKM_Hold
+    m_FirstFrame: 0
+    m_LastFrame: 1
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_Draw
+    m_ReplaceName: Arm_AKM_Draw
+    m_FirstFrame: 1
+    m_LastFrame: 29
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_Idle
+    m_ReplaceName: Arm_AKM_Idle
+    m_FirstFrame: 1
+    m_LastFrame: 149
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_FireAim
+    m_ReplaceName: Arm_AKM_FireAim
+    m_FirstFrame: 1
+    m_LastFrame: 19
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_Fire
+    m_ReplaceName: Arm_AKM_Fire
+    m_FirstFrame: 1
+    m_LastFrame: 17
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_EmptyReload
+    m_ReplaceName: Arm_AKM_EmptyReload
+    m_FirstFrame: 1
+    m_LastFrame: 99
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_Reload
+    m_ReplaceName: Arm_AKM_Reload
+    m_FirstFrame: 1
+    m_LastFrame: 76
+    m_IsLoop: 0
+  - m_Name: Arm_AKM_Holster
+    m_ReplaceName: Arm_AKM_Holster
+    m_FirstFrame: 1
+    m_LastFrame: 23
+    m_IsLoop: 0
+  m_Scale: 1
+  m_GenerateLightmapUV: 0
+  m_GeneratePhysicsShape: 0

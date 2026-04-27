@@ -1,0 +1,10 @@
+Guid: f06bcbc8188c68560afba2a4b600dec8
+ModelImporter: 
+  m_Name: MetalFence
+  m_Materials: 
+  - m_Name: MetalFence
+    m_Material: {fileId: 635193195025907241, guid: beeb4e0948659ae87d926f929299252b}
+  m_AnimationClips: []
+  m_Scale: 1
+  m_GenerateLightmapUV: 1
+  m_GeneratePhysicsShape: 1

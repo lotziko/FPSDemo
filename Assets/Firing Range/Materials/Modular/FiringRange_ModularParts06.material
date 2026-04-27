@@ -1,0 +1,13 @@
+%YAML
+--- &3852893314626934723
+Material:
+  m_Name: FiringRange_ModularParts06
+  m_Shader: {fileId: 1, guid: 2aaefc9a5c78584b4a588b295bdcae32}
+  m_Textures: 
+  - m_Name: _BaseMap
+    m_Texture: {fileId: 1, guid: d43de49d37b48183ac8e4d1f3b35523e}
+  - m_Name: _NormalMap
+    m_Texture: {fileId: 1, guid: e0f93fe4642e05662089bf5ed0043bda}
+  - m_Name: _ORMMap
+    m_Texture: {fileId: 1, guid: c195404a97567fc3dab1ecc99798b12e}
+  m_ActiveKeywords: []
